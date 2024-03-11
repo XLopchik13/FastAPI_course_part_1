@@ -12,9 +12,6 @@ import time
 from client import html
 from fastapi.websockets import WebSocket
 
-# fastapi-env\Scripts\activate.bat
-# uvicorn main:app --reload
-# last completed: course 12 part 1
 
 app = FastAPI()
 app.include_router(templates.router)
